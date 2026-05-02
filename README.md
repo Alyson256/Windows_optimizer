@@ -9,6 +9,8 @@
 [![Batch + PowerShell](https://img.shields.io/badge/Batch_%2B_PowerShell-hybrid-5391FE?logo=powershell)](scripts/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
+**🌐 Language / Idioma:** &nbsp; [🇺🇸 English](README.md) &nbsp;|&nbsp; [🇧🇷 Português](docs/pt-BR.md)
+
 </div>
 
 ---
@@ -57,9 +59,14 @@ win-optimizer/
 │   ├── 08_privacy_tweaks.bat   ← Ads ID, location, activity history
 │   ├── 09_startup_cleanup.bat  ← Startup audit (read-only)
 │   ├── 10_undo_all.bat         ← Revert EVERYTHING to defaults
+│   ├── 11_remove_bloatware.bat ← Remove non-essential UWP apps
 │   └── _lib/                   ← Shared: colors, logger, admin-check
-└── tools/
-    └── check_status.bat        ← Audit current state (no changes)
+├── tools/
+│   └── check_status.bat        ← Audit current state (no changes)
+└── docs/
+    ├── TIPS.md                 ← Clean install tips & best practices
+    ├── RISKS.md                ← Risk breakdown per script
+    └── pt-BR.md                ← Portuguese documentation
 ```
 
 ---
@@ -78,9 +85,11 @@ win-optimizer/
 | `08_privacy_tweaks` | Privacy | 🟢 Low | ✓ |
 | `09_startup_cleanup` | Audit | None (read-only) | — |
 | `10_undo_all` | Revert | None | — |
+| `11_remove_bloatware` | Cleanup | 🟢 Low | ✓ Store |
 | `check_status` | Audit | None (read-only) | — |
 
-> Full risk description for each script: [docs/RISKS.md](docs/RISKS.md)
+> Full risk description for each script: [docs/RISKS.md](docs/RISKS.md)  
+> Clean install tips and best practices: [docs/TIPS.md](docs/TIPS.md)
 
 ---
 

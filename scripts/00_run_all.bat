@@ -68,6 +68,7 @@ call :run_step "06_visual_tweaks.bat"     "Visual Performance Tweaks"
 call :run_step "07_network_tweaks.bat"    "Network Tweaks"
 call :run_step "08_privacy_tweaks.bat"    "Privacy Tweaks"
 call :run_step "09_startup_cleanup.bat"   "Startup Audit (Read-Only)"
+call :run_step "11_remove_bloatware.bat"  "Remove Non-Essential Bloatware"
 
 :: === Summary ================================================
 echo.
