@@ -60,6 +60,7 @@ win-optimizer/
 │   ├── 09_startup_cleanup.bat  ← Startup audit (read-only)
 │   ├── 10_undo_all.bat         ← Revert EVERYTHING to defaults
 │   ├── 11_remove_bloatware.bat ← Remove non-essential UWP apps
+│   ├── 12_system_cleanup.bat   ← Clear DNS cache, Temp, and Recycle Bin
 │   └── _lib/                   ← Shared: colors, logger, admin-check
 ├── tools/
 │   └── check_status.bat        ← Audit current state (no changes)
@@ -86,6 +87,7 @@ win-optimizer/
 | `09_startup_cleanup` | Audit | None (read-only) | — |
 | `10_undo_all` | Revert | None | — |
 | `11_remove_bloatware` | Cleanup | 🟢 Low | ✓ Store |
+| `12_system_cleanup` | Cleanup | None | — |
 | `check_status` | Audit | None (read-only) | — |
 
 > Full risk description for each script: [docs/RISKS.md](docs/RISKS.md)  

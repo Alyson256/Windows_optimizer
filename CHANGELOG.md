@@ -5,6 +5,21 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ---
 
+## [1.1.0] — 2026-05-05
+
+### Added
+- `12_system_cleanup.bat` — New script to safely clear DNS cache, user/system temp folders, Windows Update cache, and Recycle Bin
+- `docs/pt-BR.md` — Full Portuguese translation mirroring the English README
+- `docs/RISKS_pt-BR.md` — Full Portuguese translation of the risks documentation
+- `docs/TIPS_pt-BR.md` — Full Portuguese translation of the installation tips
+
+### Changed
+- `docs/RISKS.md` — Updated to include risk analysis for `11_remove_bloatware` and `12_system_cleanup`
+- `README.md` — Added `12_system_cleanup.bat` to the scripts table and file tree
+- `00_run_all.bat` — Included the new system cleanup step at the end of the sequence
+
+---
+
 ## [1.0.0] — 2026-05-02
 
 ### Added

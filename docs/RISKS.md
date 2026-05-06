@@ -98,4 +98,20 @@ Outputs a list of startup registry entries and scheduled tasks. No changes made.
 **Risk: 🟢 None**
 
 Restores defaults by **deleting policy keys** (the cleanest approach — avoids writing wrong values).  
-Services are set back to `start=auto`. Visual effects return to "Let Windows decide".
+Services are set back to `start=auto` or `start=demand` according to Windows 11 defaults. Visual effects return to "Let Windows decide".
+
+---
+
+## 11 — Remove Bloatware
+
+**Risk: 🟢 Low**
+
+Removes pre-installed UWP apps via PowerShell. Doesn't touch core OS components. The script pauses to ask if Xbox Game Bar (which has native screen recording) should be removed. All apps can be reinstalled freely through the Microsoft Store.
+
+---
+
+## 12 — System Cleanup
+
+**Risk: None**
+
+Empties official Windows temporary folders (`%TEMP%`, `C:\Windows\Temp`), flushes the network adapter's DNS resolver cache, deletes the Windows clean update download cache, and empties the recycle bin globally. Essentially equals using a standard Windows cleaner with zero risk to user data or system files.
