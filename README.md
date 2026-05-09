@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🪟 win-optimizer
+# 🪟 windows-optimizer
 
 **Post-install Windows 11 optimization scripts — safe, documented, and fully reversible.**
 

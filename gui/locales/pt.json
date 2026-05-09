@@ -1,0 +1,102 @@
+{
+    "app_title": "Windows Optimizer",
+    "language": "Idioma",
+    "theme": "Tema",
+    "light": "Claro",
+    "dark": "Escuro",
+    "system": "Sistema",
+    "run_selected": "Otimizar Selecionados",
+    "install_selected": "Instalar Selecionados",
+    "undo_all": "Desfazer Tudo",
+    "developed_by": "Desenvolvido por ",
+    "tooltip_hint": "Passe o mouse para info",
+    "view_history": "📄 Ver Histórico",
+    
+    "welcome_title": "Bem-vindo ao Win Optimizer",
+    "welcome_desc": "Otimize, limpe e configure o seu Windows de forma segura. Selecione as opções desejadas ou use um Preset rápido para começar.",
+    "confirm_title": "Tem certeza?",
+    "confirm_run": "Deseja executar as otimizações selecionadas?",
+    "confirm_undo": "Deseja restaurar todas as configurações para o padrão do Windows?",
+    "confirm_preset": "Deseja executar este Preset automático?",
+    "confirm_apps": "Deseja instalar os aplicativos selecionados?",
+    
+    "check_updates": "Procurar Atualizações",
+    "checking": "Verificando...",
+    "update_available": " Nova versão {v} disponível!",
+    "up_to_date": " O sistema está atualizado",
+    "update_error": " Erro ao verificar atualização",
+    
+    "tab_presets": "⚡ Presets Rápidos",
+    "tab_performance": "🚀 Desempenho",
+    "tab_privacy": "🛡️ Privacidade",
+    "tab_network": "🌐 Rede",
+    "tab_cleanup": "🧹 Limpeza",
+    "tab_apps": "📦 Apps Essenciais",
+    "tab_hardware": "🖥️ Hardware",
+    
+    "hw_os": "Sistema Operacional:",
+    "hw_cpu": "Processador:",
+    "hw_gpu": "Placa de Vídeo:",
+    "hw_ram": "Memória RAM:",
+    "hw_disk": "Armazenamento:",
+    "hw_motherboard": "Placa-mãe:",
+    "hw_loading": "Lendo hardware...",
+    
+    "update_download": "⬇️ Baixar e Atualizar",
+    "update_downloading": "Baixando {pct}%...",
+    "update_restart_msg": "Uma atualização foi baixada. O programa será fechado e atualizado automaticamente. Deseja continuar?",
+    "update_restart_title": "Aplicar Atualização",
+    
+    "preset_recommended": "Otimização Recomendada",
+    "preset_recommended_desc": "Aplica as otimizações mais seguras para melhorar a velocidade e privacidade sem quebrar o Windows.",
+    "preset_cleanup": "Limpeza do Sistema",
+    "preset_cleanup_desc": "Limpa cache de DNS, arquivos temporários, lixeira e resíduos do Windows Update.",
+    
+    "scripts": {
+        "02_services_manual": {
+            "name": "Serviços Não Essenciais",
+            "desc": "Define serviços como Xbox e Pesquisa para Manual. Não quebra o sistema.\nRisco: Baixo."
+        },
+        "05_power_plan": {
+            "name": "Plano de Alto Desempenho",
+            "desc": "Ativa o plano de energia focado em performance.\nRisco: Baixo."
+        },
+        "06_visual_tweaks": {
+            "name": "Ajustes Visuais",
+            "desc": "Desativa animações e transparências para ganhar velocidade.\nRisco: Baixo."
+        },
+        "03_disable_recall": {
+            "name": "Desativar Windows Recall",
+            "desc": "Desabilita capturas de tela via IA no Windows 11.\nRisco: Baixo."
+        },
+        "04_disable_telemetry": {
+            "name": "Desativar Telemetria",
+            "desc": "Bloqueia o envio de dados de diagnóstico para a Microsoft.\nRisco: Baixo."
+        },
+        "08_privacy_tweaks": {
+            "name": "Ajustes de Privacidade",
+            "desc": "Desativa ID de anúncios, histórico de atividade e Cortana.\nRisco: Nenhum."
+        },
+        "07_network_tweaks": {
+            "name": "Otimização de Rede",
+            "desc": "Desativa o Algoritmo de Nagle para menor ping em jogos.\nRisco: Médio."
+        },
+        "11_remove_bloatware": {
+            "name": "Remover Bloatware",
+            "desc": "Remove aplicativos inúteis pré-instalados.\nRisco: Baixo."
+        },
+        "12_system_cleanup": {
+            "name": "Limpeza Profunda",
+            "desc": "Esvazia caches, pastas temporárias e a Lixeira.\nRisco: Nenhum."
+        }
+    },
+    
+    "apps": {
+        "Google.Chrome": "Google Chrome",
+        "Brave.Brave": "Brave Browser",
+        "Mozilla.Firefox": "Firefox",
+        "7zip.7zip": "7-Zip",
+        "VideoLAN.VLC": "VLC Media Player",
+        "Notepad++.Notepad++": "Notepad++"
+    }
+}

@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🪟 win-optimizer
+# 🪟 Windows-Optimizer
 
 **Scripts de otimização pós-instalação para Windows 11 — seguros, documentados e reversíveis.**
 

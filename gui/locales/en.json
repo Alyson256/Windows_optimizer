@@ -1,0 +1,102 @@
+{
+    "app_title": "Windows Optimizer",
+    "language": "Language",
+    "theme": "Theme",
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System",
+    "run_selected": "Optimize Selected",
+    "install_selected": "Install Selected",
+    "undo_all": "Undo All",
+    "developed_by": "Developed by ",
+    "tooltip_hint": "Hover for info",
+    "view_history": "📄 View History",
+    
+    "welcome_title": "Welcome to Windows Optimizer",
+    "welcome_desc": "Optimize, clean, and configure Windows safely. Select your desired tweaks or use a quick Preset to get started.",
+    "confirm_title": "Are you sure?",
+    "confirm_run": "Do you want to run the selected optimizations?",
+    "confirm_undo": "Do you want to restore all settings to Windows defaults?",
+    "confirm_preset": "Do you want to run this automatic Preset?",
+    "confirm_apps": "Do you want to install the selected applications?",
+    
+    "check_updates": "Check for Updates",
+    "checking": "Checking...",
+    "update_available": " New version {v} available!",
+    "up_to_date": " You are up to date",
+    "update_error": " Error checking updates",
+    
+    "tab_presets": "⚡ Quick Presets",
+    "tab_performance": "🚀 Performance",
+    "tab_privacy": "🛡️ Privacy",
+    "tab_network": "🌐 Network",
+    "tab_cleanup": "🧹 Cleanup",
+    "tab_apps": "📦 Essential Apps",
+    "tab_hardware": "🖥️ Hardware",
+    
+    "hw_os": "Operating System:",
+    "hw_cpu": "Processor:",
+    "hw_gpu": "Graphics Card:",
+    "hw_ram": "RAM Memory:",
+    "hw_disk": "Storage:",
+    "hw_motherboard": "Motherboard:",
+    "hw_loading": "Reading hardware...",
+    
+    "update_download": "⬇️ Download & Update",
+    "update_downloading": "Downloading {pct}%...",
+    "update_restart_msg": "An update has been downloaded. The app will close and update automatically. Continue?",
+    "update_restart_title": "Apply Update",
+    
+    "preset_recommended": "Recommended Optimization",
+    "preset_recommended_desc": "Applies the safest tweaks to improve speed and privacy without breaking Windows.",
+    "preset_cleanup": "System Cleanup",
+    "preset_cleanup_desc": "Clears DNS cache, temporary files, Recycle Bin, and Windows Update leftovers.",
+    
+    "scripts": {
+        "02_services_manual": {
+            "name": "Non-Essential Services",
+            "desc": "Sets services like Xbox and Search to Manual. Safe.\nRisk: Low."
+        },
+        "05_power_plan": {
+            "name": "High Performance Plan",
+            "desc": "Activates the performance-focused power plan.\nRisk: Low."
+        },
+        "06_visual_tweaks": {
+            "name": "Visual Tweaks",
+            "desc": "Disables animations and transparency for better performance.\nRisk: Low."
+        },
+        "03_disable_recall": {
+            "name": "Disable Windows Recall",
+            "desc": "Disables AI screen capturing in Windows 11.\nRisk: Low."
+        },
+        "04_disable_telemetry": {
+            "name": "Disable Telemetry",
+            "desc": "Blocks diagnostic data from being sent to Microsoft.\nRisk: Low."
+        },
+        "08_privacy_tweaks": {
+            "name": "Privacy Tweaks",
+            "desc": "Disables advertising ID, activity history, and Cortana.\nRisk: None."
+        },
+        "07_network_tweaks": {
+            "name": "Network Optimization",
+            "desc": "Disables Nagle's Algorithm for lower gaming ping.\nRisk: Medium."
+        },
+        "11_remove_bloatware": {
+            "name": "Remove Bloatware",
+            "desc": "Removes useless pre-installed apps.\nRisk: Low."
+        },
+        "12_system_cleanup": {
+            "name": "Deep Cleanup",
+            "desc": "Clears caches, temporary folders, and Recycle Bin.\nRisk: None."
+        }
+    },
+    
+    "apps": {
+        "Google.Chrome": "Google Chrome",
+        "Brave.Brave": "Brave Browser",
+        "Mozilla.Firefox": "Firefox",
+        "7zip.7zip": "7-Zip",
+        "VideoLAN.VLC": "VLC Media Player",
+        "Notepad++.Notepad++": "Notepad++"
+    }
+}

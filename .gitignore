@@ -9,3 +9,10 @@ $RECYCLE.BIN/
 # Editor directories
 .vscode/
 .idea/
+
+# Python and GUI build files
+__pycache__/
+*.pyc
+gui/build/
+gui/dist/
+gui/*.spec
